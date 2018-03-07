@@ -54,14 +54,22 @@
 		FA9D4A352050811500FAC949 /* Teki */ = {
 			isa = PBXGroup;
 			children = (
-				FA9D4A362050811500FAC949 /* AppDelegate.swift */,
+				FA9D4A48205087AF00FAC949 /* supporting files */,
 				FA9D4A382050811500FAC949 /* ViewController.swift */,
 				FA9D4A3A2050811500FAC949 /* Main.storyboard */,
+			);
+			path = Teki;
+			sourceTree = "<group>";
+		};
+		FA9D4A48205087AF00FAC949 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D4A362050811500FAC949 /* AppDelegate.swift */,
 				FA9D4A3D2050811500FAC949 /* Assets.xcassets */,
 				FA9D4A3F2050811500FAC949 /* LaunchScreen.storyboard */,
 				FA9D4A422050811500FAC949 /* Info.plist */,
 			);
-			path = Teki;
+			path = "supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Teki/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Teki/supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandreholet.Teki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Teki/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Teki/supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandreholet.Teki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
